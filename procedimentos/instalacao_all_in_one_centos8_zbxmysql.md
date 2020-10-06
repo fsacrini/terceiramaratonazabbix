@@ -305,7 +305,7 @@ dnf -y install zabbix-server
 ### Carregar esquema inicial do banco
 
 ```bash
-zcat /usr/share/doc/zabbix-server-mysql/create.sql.gz | mysql -uzabbix -p zabbix
+zcat /usr/share/doc/zabbix-server-mysql/create.sql.gz | mysql -u zabbix -p zabbix
 ```
 
 ### Verificar se o banco de dados foi populado
